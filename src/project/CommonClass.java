@@ -26,12 +26,12 @@ public class CommonClass {
       ){
 	  CommonClass.courseList = (ArrayList<Course> ) oos	.readObject();
 	  CommonClass.studentList = (ArrayList<Student> ) oos.readObject();
-	  for ( int i = 0 ; i<  CommonClass.courseList.size(); i++)
-		  System.out.println(CommonClass.courseList.get(i));
-	  
-	  System.out.print(CommonClass.studentList.size());
-	  for ( int i = 0 ; i<  CommonClass.studentList.size(); i++)
-		  System.out.println(CommonClass.studentList.get(i));
+//	  for ( int i = 0 ; i<  CommonClass.courseList.size(); i++)
+//		  System.out.println(CommonClass.courseList.get(i));
+//	  
+//	  System.out.print(CommonClass.studentList.size());
+//	  for ( int i = 0 ; i<  CommonClass.studentList.size(); i++)
+//		  System.out.println(CommonClass.studentList.get(i));
       
   }   
   
